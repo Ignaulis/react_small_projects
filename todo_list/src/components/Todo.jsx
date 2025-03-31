@@ -22,7 +22,7 @@ export default function Todo() {
                 <div className="flex h-full items-start">
                     <Create />
                 </div>
-                <div className="flex flex-wrap overflow-scroll flex-col gap-10">
+                <div className="flex flex-wrap overflow-scroll flex-col gap-10 max-h-screen max-w-3x1">
                     {
                         create.map((i, k) => (
                             <div key={k} className="flex flex-col bg-slate-900 p-6 rounded-2xl border-1 border-white items-center">

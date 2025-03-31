@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+    background-color: #024a70;
+}
+
+.btn {
+    @apply bg-blue-500 text-white p-2 rounded-sm cursor-pointer hover:bg-blue-600 outline-0
+}
