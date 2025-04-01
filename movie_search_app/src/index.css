@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+    background-color: #1e2939;
+}
+
+.primary {
+    background-color: #C32F27;
+}
+
+.topNav {
+    background-color: #D8572A;
+}
